@@ -30,11 +30,15 @@
             <br>
             <div class="form-group">
               <label for="intial-deposit">Intial deposit:</label>
-              <input type="text" class="form-control" id="intial-amount" placeholder="amount" required>
+              <input type="text" class="form-control" id="initial-amount" placeholder="amount" required>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Add</button>
+            <button type="submit" class="btn btn-primary" id = "add">Add</button>
+            
           </form>
+
+          <button type="btn" class="btn btn-danger" id="with">Withdraw</button>
+          <button type="btn" class="btn btn-success" id = "depo">Deposit</button>
         </div>
 
         <div class="col-md-6">
@@ -51,7 +55,13 @@
             </div>
           </form>
         </div>
+        <div class="balance">
+          <h2 class="show-it"></h2>
+          <h2 class="show-output"></h2>
+          <h2 class="show-depo"></h2>
+        </div>
       </div>
+
 
     </div>
 </body>
